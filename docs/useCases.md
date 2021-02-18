@@ -14,13 +14,13 @@
 | membre | de pouvoir me déconnecter | clôturer ma session |  
 | membre | afficher mon profil | consulter/modifier mes infos |  
 | membre | uploader une photo | personnaliser ma photo de profil |  
-| membre | supprimer mon compte | me désinscrire |  
+| membre | supprimer mon compte | me dés-inscrire |  
 | membre | accéder à un formulaire de changement de mot de passe | réinitialiser le mot de passe |  
 | membre | accéder à une partie | poster un nouveau commentaire |  
 | membre | accéder à un formulaire de nouvelle partie | partager une nouvelle partie |  
 | membre | accéder à mes parties | modifier la description d'une partie/supprimer une partie partagée |  
 | membre | accéder à mes commentaires | modifier/supprimer mes commentaires |  
-| membre | accéder à un bouton favoris | compter la partie au nombre de mes favoris |  
+| membre | accéder à un bouton "favoris" | compter la partie au nombre de mes favoris |  
 | membre | accéder à un bouton de signalement | signaler le comportement déplacé d'un autre utilisateur |  
 |---|---|---|  
 | admin | accéder à mes messages | traiter les demandes |  
