@@ -40,6 +40,11 @@ header {
 
 .header--left__menu-button {
   display: none;
+  margin-right: 1em;
+}
+
+.header--left__menu-button > img {
+  height: 4em;
 }
 
 .header--left__logo > a > img {
@@ -179,4 +184,290 @@ footer {
 
 .footer {
   font-size: 2em;
+}
+
+/* Media-queries */
+
+@media all and (max-width: 2300px) {
+  /* header */
+  .header--left {
+    margin-left: 3em;
+  }
+
+  .header--right {
+    margin-right: 3em;
+  }
+}
+
+@media all and (max-width: 2000px) {
+  /* header */
+
+  header {
+    height: 11em;
+  }
+
+  .header--left__title__subtitle {
+    font-size: 1.2em;
+  }
+
+  .header--right {
+    font-size: 1.4em;
+  }
+
+  .header--right__auth {
+    height: 4.5em;
+  }
+
+  /* main */
+
+  .main__game {
+    height: 25em;
+    width: 25em;
+  }
+
+  .main__game__photo {
+    height: 15em;
+  }
+
+  .main__game__informations {
+    padding: 0.4em;
+    font-size: 1.1em;
+  }
+
+  .main__game__presentation {
+    padding: 0.7em;
+    font-size: 1.2em;
+  }
+
+  /* footer */
+
+  .footer {
+    font-size: 1.5em;
+  }
+}
+
+@media all and (max-width: 1440px) {
+  /* header */
+
+  header {
+    height: 9em;
+  }
+
+  .header--left {
+    margin-left: 1em;
+  }
+  
+  .header--right {
+    margin-right: 1em;
+  }
+
+  .header--left__logo > a > img {
+    height: 6em;
+  }
+
+  .header--left__title__main-title {
+    font-size: 2.5em;
+  }
+
+  .header--left__title__subtitle {
+    font-size: 1em;
+  }
+
+  .header--right {
+    font-size: 1.1em;
+  }
+
+  .header--right__auth {
+    height: 4em;
+  }
+
+  /* main */
+
+  .main__title {
+    margin: 0.7em;
+    font-size: 2.3em;
+  }
+
+  .main__game {
+    height: 18em;
+    width: 18em;
+    padding: 0.5em;
+  }
+
+  .main__game__photo {
+    height: 10em;
+  }
+
+  .main__game__informations {
+    padding: 0.2em;
+    font-size: 0.9em;
+  }
+
+  .main__game__presentation {
+    padding: 0.4em;
+    font-size: 0.9em;
+  }
+
+  /* footer */
+
+  .footer {
+    font-size: 1.2em;
+  }
+}
+
+@media all and (max-width: 992px) {
+  /* header */
+
+  header {
+    height: 7em;
+  }
+
+  .header--left__logo > a > img {
+    height: 4em;
+  }
+
+  .header--left__title__main-title {
+    font-size: 2em;
+  }
+
+  .header--left__title__subtitle {
+    font-size: 0.8em;
+  }
+
+  .header--right {
+    font-size: 0.9em;
+  }
+
+  /* main */
+
+  .main__title {
+    margin: 0.7em;
+    font-size: 1.9em;
+  }
+
+  /* footer */
+
+  .footer {
+    font-size: 1em;
+  }
+}
+
+@media all and (max-width: 800px) {
+  /* header */
+
+  header {
+    position: fixed;
+    top: 0;
+    height: 7em;
+  }
+
+  .header--left__menu-button {
+    display: block;
+  }
+
+  .header--left__logo > a > img {
+    height: 4em;
+  }
+
+  .header--left__title__main-title {
+    font-size: 2em;
+  }
+
+  .header--left__title__subtitle {
+    font-size: 1.2em;
+  }
+
+  .header--right {
+    display: none;
+  }
+
+  /* main */
+
+  main {
+    width: 100%;
+    margin-top: 7em;
+  }
+
+  .main__title {
+    margin: 0.7em;
+    font-size: 1.9em;
+  }
+
+  /* footer */
+
+  footer {
+    display: none;
+  }
+}
+
+@media all and (max-width: 600px) {
+  /* header */
+
+  header {
+    height: 6em;
+  }
+
+  .header--left__menu-button > img, .header--left__logo > a > img {
+    height: 3em;
+  }
+
+  .header--left__title__main-title {
+    font-size: 2em;
+  }
+
+  .header--left__title__subtitle {
+    font-size: 0.8em;
+  }
+
+  /* main */
+
+  main {
+    margin: 6em 0em 0em 0em;
+  }
+
+  .main__title {
+    display: none;
+  }
+}
+
+@media all and (max-width: 400px) {
+  /* header */
+
+  .header--left {
+    margin-left: 0;
+  }
+
+  .header--left__title {
+    margin-left: 1em;
+  }
+
+  .header--left__title__main-title {
+    font-size: 1.4em;
+  }
+
+  .header--left__title__subtitle {
+    font-size: 0.6em;
+  }
+
+  /* main */
+
+  .main__game {
+    height: 15em;
+    width: 15em;
+    margin: 0.5em 0em 0.5em 0em;
+  }
+
+  .main__game__photo {
+    height: 8em;
+  }
+
+  .main__game__informations {
+    padding: 0.1em;
+    font-size: 0.7em;
+  }
+
+  .main__game__presentation {
+    padding: 0.5em 0.2em 0.2em 0.2em;
+    font-size: 0.7em;
+  }
 }
