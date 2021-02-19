@@ -21,6 +21,10 @@ a {
   font-style: italic;
 }
 
+.clikable:hover {
+  cursor: pointer;
+}
+
 /* header */
 
 header {

@@ -10,9 +10,10 @@
   </head>
 
   <body>
+    <!-- If the device's width is lower than 801 pixels, the right part of the header disappear and the menu icon appear -->
     <header>
       <div class="header--left">
-        <div class="header--left__menu-button"><img src="images/menu_burger.png" alt="menu icon"></div>
+        <div class="header--left__menu-button clikable"><img src="images/menu_burger.png" alt="menu icon"></div>
         <div class="header--left__logo clikable"><a href="#"><img src="images/go_logo.png" alt="logo"></a></div>
         <div class="header--left__title">
           <h1 class="header--left__title__main-title">O'Go</h1>
@@ -32,8 +33,9 @@
       </div>
     </header>
 
+    <!-- The navbar become available when the device's width is lower than 801 pixels -->
     <nav>
-      <div class="nav__icon"><img src="images/arrow-icon.png" alt="arrow icon"></div>
+      <div class="nav__icon"><img class="clikable" src="images/arrow-icon.png" alt="arrow icon"></div>
       <ul class="nav__ul">
         <div>
           <li><a href="#" class="internal-link">Page d'accueil</a></li>
@@ -49,6 +51,7 @@
     </nav>
 
     <main>
+      <!-- If the device's width is lower than 601 pixels, this title disappear -->
       <h2 class="main__title">Dernières parties partagées</h2>
 
       <!-- games' list -->
@@ -183,6 +186,7 @@
       </div>
     </main>
 
+    <!-- If the device's width is lower than 801 pixels, the footer disappear -->
     <footer>
       <div class="footer"><a href="#" class="internal-link">Nous contacter</a></div>
       <div class="footer"><a href="#" class="internal-link">A propos</a></div>
